@@ -1,0 +1,7 @@
+resource_group_name = "dev-demo21"
+location = "eastus"
+resource_group_name1 = "dev-demo22"
+prefix = "dev"
+vm_size = "Standard_B1ms"
+ssh_public_key = "~/.ssh/id_rsa.pub"
+admin_username = "dev"

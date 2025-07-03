@@ -1,0 +1,7 @@
+resource_group_name = "prod-demo21"
+location = "eastus"
+resource_group_name1 = "prod-demo21"
+prefix = "prod"
+vm_size = "Standard_B2s"
+ssh_public_key = "~/.ssh/id_rsa.pub"
+admin_username = "prod"
