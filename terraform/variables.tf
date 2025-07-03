@@ -26,3 +26,6 @@ variable "admin_username" {
 variable "ssh_public_key" {
   type = string
 }
+variable "admin_password" {
+type = string
+}
