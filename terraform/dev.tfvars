@@ -5,4 +5,4 @@ prefix = "dev"
 vm_size = "Standard_B1ms"
 ssh_public_key = "~/.ssh/id_rsa.pub"
 admin_username = "dev"
-admin_password = Password@123
+admin_password = "Password@123"
