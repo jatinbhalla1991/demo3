@@ -5,3 +5,4 @@ prefix = "prod"
 vm_size = "Standard_B2s"
 ssh_public_key = "~/.ssh/id_rsa.pub"
 admin_username = "prod"
+admin_password = Password@123
