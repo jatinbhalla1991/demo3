@@ -36,7 +36,7 @@ jobs:
         working-directory: ./selenium-maven-project
         env:
           DISPLAY: :99
-      - name: Build Maven packages if tests pass
-        run: mvn package
-        working-directory: ./selenium-maven-project
-        if: success()
+    #   - name: Build Maven packages if tests pass
+    #     run: mvn package
+    #     working-directory: ./selenium-maven-project
+    #     if: success()
