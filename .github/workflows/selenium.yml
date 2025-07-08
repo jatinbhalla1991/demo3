@@ -26,6 +26,13 @@ jobs:
       - name: Display Chrome version
         run: google-chrome --version
 
+      - name: Start Xvfb
+        run: |
+          export DISPLAY=:99
+          Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
+
       - name: Build and run tests with Maven
         run: mvn test
         working-directory: ./selenium-maven-project
+        env:
+          DISPLAY: :99
